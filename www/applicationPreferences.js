@@ -1,29 +1,29 @@
 var applicationPreferences = {
 
 	get : function(key, success, fail) {
-		cordova.exec(success, fail, "applicationPreferences", "get", [ key ]);
+		cordova.exec(success, fail, "ApplicationPreferences", "get", [ key ]);
 	},
 
 	set : function(key, value, success, fail) {
-		cordova.exec(success, fail, "applicationPreferences", "set", [ key,
+		cordova.exec(success, fail, "ApplicationPreferences", "set", [ key,
 				value ]);
 	},
 
 	load : function(success, fail) {
-		cordova.exec(success, fail, "applicationPreferences", "load", []);
+		cordova.exec(success, fail, "ApplicationPreferences", "load", []);
 	},
 
 	show : function(activity, success, fail) {
-		cordova.exec(success, fail, "applicationPreferences", "show",
+		cordova.exec(success, fail, "ApplicationPreferences", "show",
 				[ activity ]);
 	},
 
 	clear : function(success, fail) {
-		cordova.exec(success, fail, "applicationPreferences", "clear", []);
+		cordova.exec(success, fail, "ApplicationPreferences", "clear", []);
 	},
 
 	remove : function(keyToRemove, success, fail) {
-		cordova.exec(success, fail, "applicationPreferences", "remove",
+		cordova.exec(success, fail, "ApplicationPreferences", "remove",
 				[ keyToRemove ]);
 	}
 
