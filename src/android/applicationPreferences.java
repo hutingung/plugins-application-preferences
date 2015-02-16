@@ -16,7 +16,7 @@ import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 //import android.util.Log;
 
-public class applicationPreferences extends CordovaPlugin {
+public class ApplicationPreferences extends CordovaPlugin {
 
     //private static final String LOG_TAG = "AppPrefs";
     //private static final int NO_PROPERTY = 0;
